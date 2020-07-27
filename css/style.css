@@ -16,6 +16,7 @@
  1074 - Subscribe to our newsletter
  1112 - Footer Section
  1225 - Footer-Bottom Section
+ 1245 - ScrollTop Section
 --------------------------------------------------------------------- */
 
 /* All Proporities */
@@ -1241,6 +1242,28 @@
 }
 
 /* Footer-Bottom Section */
+
+/* ScrollTop Section */
+.button-top {
+    position: fixed;
+    bottom: -200px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to right,#e8931e,#e7601e);
+    color: #fff;
+    text-align: center !important;
+    z-index: 99;
+    font-size: 16px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .button-show {
+    bottom: 20px;
+  }
+/* ScrollTop Section */
 
 
 
