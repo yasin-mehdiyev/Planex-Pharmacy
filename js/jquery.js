@@ -20,4 +20,13 @@ $(document).ready(function () {
     })
 
 
+    // 2) Preloader Section
+    $(window).on('load', function(){
+        $(".preloader-activate").removeClass('preloader-active');
+
+        setTimeout(function(){
+            $('.open_tm_preloader').addClass('loaded');
+            }, 1000);
+    });
+
 });

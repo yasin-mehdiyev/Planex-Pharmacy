@@ -1,5 +1,5 @@
 /* ---------------------------------------------------------------------
-   15 - All Proporities
+   15 - All Proporities  , Preloader Section
    25-  Change Custom Scroll Bar
    46 - Header Section Navigation Bar
    72 - Banner Slide Show Section
@@ -27,6 +27,101 @@
    border-radius: 0px!important;
 }
 /* All Proporities */
+
+/* Preloader Section */
+
+.preloader-active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: 99999;
+  }
+  
+  .preloader-active .preloader-area-wrap {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    display: block;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999999;
+  }
+  
+  .preloader-active .preloader-area-wrap .spinner div {
+    background-color: #086AD8;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  }
+  
+  .preloader-active .preloader-area-wrap .spinner div.bounce1 {
+    animation-delay: -0.32s;
+  }
+  
+  .preloader-active .preloader-area-wrap .spinner div.bounce2 {
+    animation-delay: -0.16s;
+  }
+
+  @keyframes sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+      transform: scale(0);
+    }
+    40% {
+      transform: scale(1);
+    }
+  }
+  
+  .preloader-area-wrap {
+    display: none;
+  }
+  
+  .open_tm_preloader {
+    position: fixed;
+    background-color: transparent;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    transition: .2s all ease;
+    transition-delay: .5s;
+  }
+  
+  .open_tm_preloader.loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .open_tm_preloader.loaded:before, .open_tm_preloader.loaded:after {
+    width: 0%;
+  }
+  
+  .open_tm_preloader:before, .open_tm_preloader:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .open_tm_preloader:before {
+    top: 0;
+    left: 0;
+  }
+  
+  .open_tm_preloader:after {
+    bottom: 0;
+    right: 0;
+  }
+
+  /* Preloader Section */
 
 
 /* Change Custom Scroll Bar */
@@ -1264,7 +1359,6 @@
     bottom: 20px;
   }
 /* ScrollTop Section */
-
 
 
 
