@@ -5,7 +5,7 @@ $(document).ready(function () {
         var distanceFromTop = $(window).scrollTop();
         var buttonTop = $('.button-top');
 
-        console.log(distanceFromTop, buttonTop);
+      
 
         if (distanceFromTop > 400) {
             buttonTop.addClass('button-show');
@@ -27,6 +27,20 @@ $(document).ready(function () {
         setTimeout(function(){
             $('.open_tm_preloader').addClass('loaded');
             }, 1000);
+    });
+
+    // 3) Adding BgColor to Navbar when it is scrolling
+
+    $(window).on('scroll',function(){
+        $fromBodyHeightOfScroll=$(window).scrollTop();
+        $navbarMenu=$('.navbar-default');
+
+        if($fromBodyHeightOfScroll>400){
+            $navbarMenu.addClass('nav-scroll');
+        }
+        else{
+            $navbarMenu.removeClass('nav-scroll');
+        }
     });
 
 });

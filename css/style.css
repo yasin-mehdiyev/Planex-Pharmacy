@@ -123,6 +123,43 @@
 
   /* Preloader Section */
 
+  /* Adding BgColor to Navbar when it is scrolling */
+
+  .nav-scroll {
+    background: rgb(184, 201, 36);
+    border-bottom: 1px solid rgba(12, 12, 12, 0.04);
+    min-height: 60px;
+    line-height: 60px;
+    position: fixed!important;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    transition: all .5s;
+    z-index: 9999999999999999;
+  }
+  .nav-scroll.navbar{
+      margin: 0px auto;
+  }
+ .nav-scroll .navbar-brand {
+    color: #212121!important;
+    margin-left: 15px;
+}
+.nav-scroll .navbar-nav .nav-link {
+    color: #111!important;
+    border: none;
+}  
+#top .navbar.nav-scroll .navbar-collapse .navbar-nav .nav-item:hover .nav-link{
+    border: none;
+}
+#top .navbar.nav-scroll .navbar-collapse .navbar-nav .nav-item:first-child .nav-link{
+    border: none;
+}
+.nav-scroll .navbar-nav,.nav-scroll .form-inline{
+    margin-right: 15px;
+}
+
+/* Adding BgColor to Navbar when it is scrolling */
+
 
 /* Change Custom Scroll Bar */
 ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track {
@@ -1359,6 +1396,9 @@
     bottom: 20px;
   }
 /* ScrollTop Section */
+
+
+
 
 
 
