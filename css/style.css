@@ -126,7 +126,7 @@
   /* Adding BgColor to Navbar when it is scrolling */
 
   .nav-scroll {
-    background: rgb(184, 201, 36);
+    background: linear-gradient(to right,#e8931e,#e7601e);
     border-bottom: 1px solid rgba(12, 12, 12, 0.04);
     min-height: 60px;
     line-height: 60px;
@@ -1396,6 +1396,44 @@
     bottom: 20px;
   }
 /* ScrollTop Section */
+
+/* Media Query Responsive */
+
+@media screen and (min-width: 300px) {
+    .introduce .buy_from_us {
+      position: static;
+    }
+    .introduce .who_we_are_main .who_we_are_title{
+        margin-top: 30px;
+    }
+    .introduce .who_we_are_main .who_we_are_content{
+        padding-bottom: 20px;
+    }
+    .introduce .who_we_are_main .who_we_are_content ul li{
+        width: 75%;   
+    }
+    .introduce .newletter-section .title{
+        margin-left: 55px;
+        margin-bottom: 25px;
+    }
+    .pharmachy_box_gallery .box_item{
+        margin-top: 30px;
+    }
+    .pharmachy_box_gallery .box_item .overlay .hover_text h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .pharmachy_box_gallery .box_item .overlay .hover_text p{
+        font-size: 14px;
+        padding: 0px 15px;
+    }
+    .pharmachy_box_gallery .box_item .overlay .hover_text  a{
+        padding: 10px 15px;
+        margin: 10px;
+        font-size: 14px;
+    }
+
+  }
 
 
 
