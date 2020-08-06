@@ -1447,6 +1447,9 @@
         margin-top: 15px;
         padding: 0px 40px;
     }
+    .sub_consultant_team .team_member{
+        margin-bottom: 25px;
+    }
   }
 
   
@@ -1462,9 +1465,43 @@
     .treatments .treat_content a .treat_div_block i{
         left: 65px;
     }
+    
+    .consultant_team .sub_consultant_team .context .sub_title{
+        font-size: 16px;
+        padding-left: 25px;
+    }
+    .consultant_team .sub_consultant_team .context .sub_title::after{
+        content: '';
+        left: -30px;
+    }
+    .consultant_team .sub_consultant_team .context .title{
+        font-size: 35px;
+    }
+    .sub_consultant_team .team_member .photo_team{
+        height: 190px;
+    }
+    .sub_consultant_team .team_member .photo_team::before{
+        content: '';
+        border: 15px solid #4042ef;
+        width: 200px;
+        height: 165px;
+        right: -1%;
+    }
+    .sub_consultant_team .team_member .photo_team .arrow-item{
+        right: 2%;
+        width: 55px;
+        height: 55px;
+        line-height: 60px;
+    }
+    .sub_consultant_team .team_member .photo_team .social_item_team{
+        left: -7%;
+    }
+    .sub_consultant_team .team_member .photo_team .social_item_team ul li a i{
+        padding:6px;
+    }
 }
 
-@media screen and (min-width: 360px){
+@media screen and (min-width: 350px){
     .pharmachy_box_gallery .box_item .box_item_title{
         width: 81%;
         margin: 0px 34px auto;
@@ -1476,6 +1513,76 @@
     .treatments .treat_content a .treat_div_block i{
         left: 85px;
     }
+    
+    .consultant_team .sub_consultant_team .context .sub_title{
+        font-size: 16px;
+        padding-left: 25px;
+    }
+    .consultant_team .sub_consultant_team .context .sub_title::after{
+        content: '';
+        left: -30px;
+    }
+    .consultant_team .sub_consultant_team .context .title{
+        font-size: 35px;
+    }
+    .sub_consultant_team .team_member .photo_team{
+        height: 240px;
+    }
+    .sub_consultant_team .team_member .photo_team::before{
+        content: '';
+        border: 15px solid #4042ef;
+        width: 200px;
+        height: 165px;
+        right: 7%;
+    }
+    .sub_consultant_team .team_member .photo_team .arrow-item{
+        right: 6%;
+        width: 55px;
+        height: 55px;
+        line-height: 60px;
+    }
+    .sub_consultant_team .team_member .photo_team .social_item_team{
+        left: 2%;
+    }
+    .sub_consultant_team .team_member .photo_team .social_item_team ul li a i{
+        padding:6px;
+    }
+
+}
+@media screen and (min-width: 370px){
+    /* .consultant_team .sub_consultant_team .context .sub_title{
+        font-size: 16px;
+        padding-left: 25px;
+    }
+    .consultant_team .sub_consultant_team .context .sub_title::after{
+        content: '';
+        left: -30px;
+    }
+    .consultant_team .sub_consultant_team .context .title{
+        font-size: 35px;
+    } */
+    .sub_consultant_team .team_member .photo_team{
+        height: 260px;
+    }
+    .sub_consultant_team .team_member .photo_team::before{
+        /* content: '';
+        border: 15px solid #4042ef;
+        width: 200px;
+        height: 165px; */
+        right: 15%;
+    }
+    .sub_consultant_team .team_member .photo_team .arrow-item{
+        right: 10%;
+        /* width: 55px;
+        height: 55px;
+        line-height: 60px; */
+    }
+    /* .sub_consultant_team .team_member .photo_team .social_item_team{
+        left: 2%;
+    } */
+    /* .sub_consultant_team .team_member .photo_team .social_item_team ul li a i{
+        padding:6px;
+    } */
 }
 
 @media screen and (min-width: 400px){
@@ -1490,8 +1597,27 @@
     .treatments .treat_content a .treat_div_block i{
         left: 105px;
     }
+    .sub_consultant_team .team_member .photo_team{
+        height: 300px;
+    }
+    .sub_consultant_team .team_member .photo_team::before{
+        content: '';
+        border: 30px solid #4042ef;
+        width: 250px;
+        height: 215px;
+        right: 7%;
+    }
+    .sub_consultant_team .team_member .photo_team .arrow-item{
+        width: 55px;
+        height: 55px;
+        line-height: 60px;
+        right: 9%;
+    }
+    .sub_consultant_team .team_member .photo_team .social_item_team{
+        left: 10%;
+    }
 }
-@media screen and (min-width: 450px){
+@media screen and (min-width: 440px){
     .pharmachy_box_gallery .box_item .box_item_title{
         width: 65%;
         margin: 0px 77px auto;
@@ -1503,9 +1629,28 @@
     .treatments .treat_content a .treat_div_block i{
         left: 125px;
     }
+    .sub_consultant_team .team_member .photo_team{
+        height: 340px;
+    }
+    .sub_consultant_team .team_member .photo_team::before{
+        content: '';
+        border: 20px solid #4042ef;
+        width: 260px;
+        height: 215px;
+        right: 10%;
+    }
+    .sub_consultant_team .team_member .photo_team .arrow-item{
+        width: 55px;
+        height: 55px;
+        line-height: 60px;
+        right: 13%;
+    }
+    .sub_consultant_team .team_member .photo_team .social_item_team{
+        left: 15%;
+    }
 }
-@media screen and (min-width: 768px){
-    .pharmachy_box_gallery .box_item .box_item_title{
+@media screen and (min-width: 767px){
+    /* .pharmachy_box_gallery .box_item .box_item_title{
         width: 83%;
         margin: 0 30px auto;
     }
@@ -1515,9 +1660,28 @@
     }
     .treatments .treat_content a .treat_div_block i{
         left: 90px;
+    } */
+    /* .sub_consultant_team .team_member .photo_team{
+        height: 315px;
+    } */
+    /* .sub_consultant_team .team_member .photo_team::before{
+        content: '';
+        border: 20px solid #4042ef;
+        width: 260px;
+        height: 215px;
+        right: 10%;
     }
+    .sub_consultant_team .team_member .photo_team .arrow-item{
+        width: 55px;
+        height: 55px;
+        line-height: 60px;
+        right: 13%;
+    }
+    .sub_consultant_team .team_member .photo_team .social_item_team{
+        left: 15%;
+    } */
 }
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1020px){
     .pharmachy_box_gallery .box_item .box_item_title{
         width: 100%;
         margin: 0 auto;
@@ -1529,6 +1693,25 @@
     .treatments .treat_content a .treat_div_block i{
         left: 40px;
     }
+     /* .sub_consultant_team .team_member .photo_team{
+        height: 340px;
+    } */
+    /* .sub_consultant_team .team_member .photo_team::before{
+        content: '';
+        border: 20px solid #4042ef;
+        width: 260px;
+        height: 215px;
+        right: 10%;
+    }
+    .sub_consultant_team .team_member .photo_team .arrow-item{
+        width: 55px;
+        height: 55px;
+        line-height: 60px;
+        right: 13%;
+    }
+    .sub_consultant_team .team_member .photo_team .social_item_team{
+        left: 15%;
+    }  */
 }
 
 
