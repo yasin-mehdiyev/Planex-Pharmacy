@@ -1399,7 +1399,7 @@
 
 /* Media Query Responsive */
 
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 768px) {
     .introduce .buy_from_us {
       position: static;
     }
@@ -1419,21 +1419,117 @@
     .pharmachy_box_gallery .box_item{
         margin-top: 30px;
     }
-    .pharmachy_box_gallery .box_item .overlay .hover_text h3{
-        font-size: 20px;
-        margin-bottom: 10px;
+    .famous_medical .search_title{
+        font-size: 25px;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+        text-align: center;
     }
-    .pharmachy_box_gallery .box_item .overlay .hover_text p{
-        font-size: 14px;
-        padding: 0px 15px;
+    .famous_medical .famous_text p{
+        text-align: left;
+        line-height: 21px;
+        width: 90%;
     }
-    .pharmachy_box_gallery .box_item .overlay .hover_text  a{
-        padding: 10px 15px;
-        margin: 10px;
-        font-size: 14px;
+    .famous_medical .number_item {
+        margin-left: 2%;
+        margin-bottom: 5%;
     }
-
+    .works .border-dashed{
+        border: none;
+    }
+    .works .how_it_work_box .how_it_work_content{
+        margin: 20px auto;
+    }
+    .works .how_it_work_box{
+        margin-bottom: 25px;
+    }
+    .works .how_it_work_box .how_it_work_footer p {
+        margin-top: 15px;
+        padding: 0px 40px;
+    }
   }
+
+  
+@media screen and (min-width: 320px){
+    .pharmachy_box_gallery .box_item .box_item_title{
+        width: 92.5%;
+        margin: 0px 13px auto;
+    }
+    .pharmachy_box_gallery .box_item:hover .overlay{
+        width: 92%;
+        margin: 0px auto;
+    }
+    .treatments .treat_content a .treat_div_block i{
+        left: 65px;
+    }
+}
+
+@media screen and (min-width: 360px){
+    .pharmachy_box_gallery .box_item .box_item_title{
+        width: 81%;
+        margin: 0px 34px auto;
+    }
+    .pharmachy_box_gallery .box_item:hover .overlay{
+        width: 81%;
+        margin: 0px auto;
+    }
+    .treatments .treat_content a .treat_div_block i{
+        left: 85px;
+    }
+}
+
+@media screen and (min-width: 400px){
+    .pharmachy_box_gallery .box_item .box_item_title{
+        width: 71%;
+        margin: 0px 60px auto;
+    }
+    .pharmachy_box_gallery .box_item:hover .overlay{
+        width: 71%;
+        margin: 0px auto;
+    }
+    .treatments .treat_content a .treat_div_block i{
+        left: 105px;
+    }
+}
+@media screen and (min-width: 450px){
+    .pharmachy_box_gallery .box_item .box_item_title{
+        width: 65%;
+        margin: 0px 77px auto;
+    }
+    .pharmachy_box_gallery .box_item:hover .overlay{
+        width: 67%;
+        margin: 0px auto;
+    }
+    .treatments .treat_content a .treat_div_block i{
+        left: 125px;
+    }
+}
+@media screen and (min-width: 768px){
+    .pharmachy_box_gallery .box_item .box_item_title{
+        width: 83%;
+        margin: 0 30px auto;
+    }
+    .pharmachy_box_gallery .box_item:hover .overlay{
+        width: 83%;
+        margin: 0 auto;
+    }
+    .treatments .treat_content a .treat_div_block i{
+        left: 90px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .pharmachy_box_gallery .box_item .box_item_title{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .pharmachy_box_gallery .box_item:hover .overlay{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .treatments .treat_content a .treat_div_block i{
+        left: 40px;
+    }
+}
 
 
 
