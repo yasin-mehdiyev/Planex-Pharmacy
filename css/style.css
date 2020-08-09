@@ -863,7 +863,7 @@
 }
 .best_services .photo{
     position: relative;
-    width: 95%;
+    width: 100%;
     cursor: pointer;
     overflow: hidden;
 }
@@ -903,11 +903,11 @@
 .best_services .content{
     position: absolute;
     padding-top: 23px;
+    padding-bottom: 10px;
     bottom: -45px;
     right: 30px;
     background: #eaeaea;
     width: 90%;
-    height: 180px;
     z-index: 4;
     cursor: pointer;
     overflow: hidden;
@@ -1475,6 +1475,29 @@
     }
     #bottom .footer-form .form-group .form-icon{
         display: inline-block;
+    }
+    .best_services .sub_services .item{
+        margin-bottom: 50%;
+    }
+    .best_services .sub_services .content{
+        top: 60%;
+        left: 30px;
+        width: 95%;
+        padding-bottom: 42%;
+    }
+    .best_services .sub_services .content .con_title{
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .best_services .sub_services .content p{
+        font-size: 9px;
+    }
+    .best_services .sub_services .content .read_more{
+        padding: 5px 15px;
+    }
+    .best_services .sub_services .more_link .read_more{
+        padding: 20px 15px;
+        margin-top: 0px;
     }
   }
 
