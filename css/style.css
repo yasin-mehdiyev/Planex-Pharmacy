@@ -1450,6 +1450,32 @@
     .sub_consultant_team .team_member{
         margin-bottom: 25px;
     }
+    .blogs .blog-date,.blogs .blog-content .blog-sub-content a{
+        margin-bottom: 10px;
+    }
+    .client_say .client_say_photo{
+        margin-bottom: 25%;
+    }
+    .client_say .context .title{
+        font-size: 35px;
+    }
+    .client_say .testimonials .slider .slide p{
+        font-size: 12px;
+        margin-left: 25%;
+    }
+    .client_say .testimonials .slider .slide::before{
+        content: '';
+        left: -20px;
+    }
+    #bottom .footer-site-link,#bottom .footer-quick-link,#bottom .footer-contact{
+        margin-top: 25px;
+    }
+    #bottom .footer-quick-link,#bottom .footer-contact{
+        margin-left: 0px;
+    }
+    #bottom .footer-form .form-group .form-icon{
+        display: inline-block;
+    }
   }
 
   
@@ -1499,6 +1525,9 @@
     .sub_consultant_team .team_member .photo_team .social_item_team ul li a i{
         padding:6px;
     }
+    #bottom .footer-form .form-group .form-icon{
+        width: 43px;
+    }
 }
 
 @media screen and (min-width: 350px){
@@ -1547,42 +1576,24 @@
     .sub_consultant_team .team_member .photo_team .social_item_team ul li a i{
         padding:6px;
     }
-
+    #bottom .footer-form .form-group .form-icon{
+        width: 49px;
+    }
 }
 @media screen and (min-width: 370px){
-    /* .consultant_team .sub_consultant_team .context .sub_title{
-        font-size: 16px;
-        padding-left: 25px;
-    }
-    .consultant_team .sub_consultant_team .context .sub_title::after{
-        content: '';
-        left: -30px;
-    }
-    .consultant_team .sub_consultant_team .context .title{
-        font-size: 35px;
-    } */
     .sub_consultant_team .team_member .photo_team{
         height: 260px;
     }
     .sub_consultant_team .team_member .photo_team::before{
-        /* content: '';
-        border: 15px solid #4042ef;
-        width: 200px;
-        height: 165px; */
+        content: '';
         right: 15%;
     }
     .sub_consultant_team .team_member .photo_team .arrow-item{
         right: 10%;
-        /* width: 55px;
-        height: 55px;
-        line-height: 60px; */
     }
-    /* .sub_consultant_team .team_member .photo_team .social_item_team{
-        left: 2%;
-    } */
-    /* .sub_consultant_team .team_member .photo_team .social_item_team ul li a i{
-        padding:6px;
-    } */
+    #bottom .footer-form .form-group .form-icon{
+        width: 51px;
+    }
 }
 
 @media screen and (min-width: 400px){
@@ -1615,6 +1626,9 @@
     }
     .sub_consultant_team .team_member .photo_team .social_item_team{
         left: 10%;
+    }
+    #bottom .footer-form .form-group .form-icon{
+        width: 56px;
     }
 }
 @media screen and (min-width: 440px){
@@ -1650,36 +1664,25 @@
     }
 }
 @media screen and (min-width: 767px){
-    /* .pharmachy_box_gallery .box_item .box_item_title{
-        width: 83%;
-        margin: 0 30px auto;
+    .client_say .client_say_photo::before{
+        border: 10px solid #e7601e;
+        width: 60px;
+        height: 60px;
     }
-    .pharmachy_box_gallery .box_item:hover .overlay{
-        width: 83%;
-        margin: 0 auto;
+    .client_say .client_say_photo::after{
+        border: 15px solid #4042ef;
+        width: 130px;
+        height: 130px;
     }
-    .treatments .treat_content a .treat_div_block i{
-        left: 90px;
-    } */
-    /* .sub_consultant_team .team_member .photo_team{
-        height: 315px;
-    } */
-    /* .sub_consultant_team .team_member .photo_team::before{
-        content: '';
-        border: 20px solid #4042ef;
-        width: 260px;
-        height: 215px;
-        right: 10%;
+    #bottom .footer-form .form-group .form-icon{
+        width: 40px;
     }
-    .sub_consultant_team .team_member .photo_team .arrow-item{
-        width: 55px;
-        height: 55px;
-        line-height: 60px;
-        right: 13%;
+    #bottom .footer-form .form-group .form-control {   
+        width: 73%;
     }
-    .sub_consultant_team .team_member .photo_team .social_item_team{
-        left: 15%;
-    } */
+    #bottom .footer-form button{
+        margin-top: 25px;
+    }
 }
 @media screen and (min-width: 1020px){
     .pharmachy_box_gallery .box_item .box_item_title{
@@ -1693,25 +1696,31 @@
     .treatments .treat_content a .treat_div_block i{
         left: 40px;
     }
-     /* .sub_consultant_team .team_member .photo_team{
-        height: 340px;
-    } */
-    /* .sub_consultant_team .team_member .photo_team::before{
+    .client_say .testimonials .slider .slide::before{
         content: '';
-        border: 20px solid #4042ef;
-        width: 260px;
-        height: 215px;
-        right: 10%;
+        left: -15px;
     }
-    .sub_consultant_team .team_member .photo_team .arrow-item{
-        width: 55px;
-        height: 55px;
-        line-height: 60px;
-        right: 13%;
+    .client_say .client_say_photo::after{
+        content: '';
+        border: 30px solid #4042ef;
+        width: 180px;
+        height: 180px;
     }
-    .sub_consultant_team .team_member .photo_team .social_item_team{
-        left: 15%;
-    }  */
+    .client_say .client_say_photo::before{
+        content: '';
+        border: 20px solid #e7601e;
+        width: 80px;
+        height: 80px;
+    }
+    #bottom .footer-form .form-group .form-icon{
+        width: 37px;
+    }
+    #bottom .footer-form .form-group .form-control {   
+        width: 82%;
+    }
+    #bottom .footer-form button{
+        margin-top: 25px;
+    }
 }
 
 
