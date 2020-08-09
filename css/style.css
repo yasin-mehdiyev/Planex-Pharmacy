@@ -148,12 +148,6 @@
     color: #111!important;
     border: none;
 }  
-#top .navbar.nav-scroll .navbar-collapse .navbar-nav .nav-item:hover .nav-link{
-    border: none;
-}
-#top .navbar.nav-scroll .navbar-collapse .navbar-nav .nav-item:first-child .nav-link{
-    border: none;
-}
 .nav-scroll .navbar-nav,.nav-scroll .form-inline{
     margin-right: 15px;
 }
@@ -193,16 +187,19 @@
 #top .navbar .navbar-collapse .navbar-nav .nav-item{
     padding: 0px 6px;
 }
-#top .navbar .navbar-collapse .navbar-nav .nav-item:hover .nav-link{
+/* #top .navbar .navbar-collapse .navbar-nav .nav-item:hover .nav-link{
     color: #53a6d5;
     border: solid 1px #53a6d5;
-}
-#top .navbar .navbar-collapse .navbar-nav .nav-item:first-child .nav-link{
+} */
+#top .navbar .navbar-collapse .navbar-nav .nav-item.hoverActive .nav-link{
     color: #53a6d5;
     border: solid 1px #53a6d5;
 }
 #top .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
     font-size: 18px;
+}
+.navbar-light .navbar-nav .active{
+    color: #3383b1!important;
 }
 /* Header Section Navigation Bar */
 
@@ -1401,7 +1398,7 @@
 
 @media screen and (max-width: 768px) {
     .introduce .buy_from_us {
-      position: static;
+        position: static;
     }
     .introduce .who_we_are_main .who_we_are_title{
         margin-top: 30px;

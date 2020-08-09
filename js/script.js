@@ -59,6 +59,22 @@ for(var i=0;i<iniciatorImages.length;i++){
     });
 }
 
+//3)Toggle Active Class
+var hoverMenuElement=document.querySelectorAll('.nav-item');
+
+console.log(hoverMenuElement);
+
+for(var i=0;i<hoverMenuElement.length;i++){
+   hoverMenuElement[i].addEventListener('mouseover',function(){
+      console.log(this);
+
+      for(var j=0;j<hoverMenuElement.length;j++){
+         hoverMenuElement[j].classList.remove('hoverActive');
+      }
+         this.classList.add('hoverActive');     
+   });
+}
+
 
 
 
