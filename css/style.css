@@ -17,6 +17,7 @@
  1112 - Footer Section
  1225 - Footer-Bottom Section
  1245 - ScrollTop Section
+ 1398 - Media Query Responsive
 --------------------------------------------------------------------- */
 
 /* All Proporities */
@@ -578,12 +579,6 @@
     color: rgba(47,57,69,.7);
     font-family: Poppins,sans-serif;
 }
-.famous_medical .famous_text p{
-
-}
-.famous_medical .number_item{
-
-}
 .famous_medical .number_item img{
     float: left;
     opacity: .4;
@@ -679,14 +674,8 @@
 
 /* Team Of Consultants Section */
 
-.consultant_team{
-    
-}
 .consultant_team .sub_consultant_team{
     padding: 70px 45px;
-}
-.consultant_team .sub_consultant_team .context{
-
 }
 .consultant_team .sub_consultant_team .context .sub_title,.famous_medical .context .sub_title,.client_say .context .sub_title{
     position: relative;
@@ -795,9 +784,6 @@
     background: #f5f5f5;
     padding: 35px;
     box-shadow: 2px 2px #f5f5f5;
-}
-.sub_consultant_team .team_member .teamMember_content h3{
-
 }
 .sub_consultant_team .team_member .teamMember_content h3 a{
     color: #2f3945;
@@ -1069,9 +1055,6 @@
 .blogs .blog-content .blog-sub-content #blog_text{
     margin: 25px 0;
 }
-.blogs .blog-content .blog-sub-content .blog-btn{
-
-}
 
 /* Our Blogs Section */
 
@@ -1110,12 +1093,6 @@
 }
 .client_say .context{
     margin-left: 5%;
-}
-.client_say .context .sub_title{
-    
-}
-.client_say .context .sub_title::after{
-
 }
 .client_say .context .title{
     color: #333;
@@ -1397,6 +1374,11 @@
 /* Media Query Responsive */
 
 @media screen and (max-width: 768px) {
+
+    .navbar-collapse .navbar-nav{
+        margin-top: 20px;
+        margin-left: -20px !important;
+    }
     .introduce .buy_from_us {
         position: static;
     }
@@ -1500,6 +1482,15 @@
 
   
 @media screen and (min-width: 320px){
+    .navbar-brand{
+        margin-left: -10px!important;
+    }
+    .navbar-collapse .navbar-nav{
+        margin-left: -30px !important;
+    }
+    .form-inline{
+        margin-left: 0px!important;
+    }
     .pharmachy_box_gallery .box_item .box_item_title{
         width: 92.5%;
         margin: 0px 13px auto;
@@ -1705,6 +1696,15 @@
     }
 }
 @media screen and (min-width: 1020px){
+    .navbar-brand{
+        margin-left: auto!important;
+    }
+    .navbar-collapse .navbar-nav{
+        margin-left: auto!important;
+    }
+    .form-inline{
+        margin-left: auto!important;
+    }
     .pharmachy_box_gallery .box_item .box_item_title{
         width: 100%;
         margin: 0 auto;
@@ -1742,6 +1742,8 @@
         margin-top: 25px;
     }
 }
+
+/* Media Query Responsive */
 
 
 

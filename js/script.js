@@ -65,6 +65,7 @@ var hoverMenuElement=document.querySelectorAll('.nav-item');
 console.log(hoverMenuElement);
 
 for(var i=0;i<hoverMenuElement.length;i++){
+
    hoverMenuElement[i].addEventListener('mouseover',function(){
       console.log(this);
 
@@ -73,6 +74,14 @@ for(var i=0;i<hoverMenuElement.length;i++){
       }
          this.classList.add('hoverActive');     
    });
+
+   hoverMenuElement[i].addEventListener('mouseout',function(){
+
+       console.log(this);
+       this.classList.remove('hoverActive');
+
+   });
+   
 }
 
 
